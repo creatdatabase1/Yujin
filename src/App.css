@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=DotGothic16&display=swap');
+
+/* Reset and Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Concert One', sans-serif; /* Default font */
+}
+
+body {
+  min-height: 100vh;
+  background-image: url('punk.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+
+/* Navbar Styles */
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  font-size: 20px;
+}
+
+.navbar-brand {
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 4em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  font-family: 'Concert One', sans-serif; /* Apply Poppins to navbar brand */
+}
+
+.navbar-brand:hover {
+  color: #ffff02;
+}
+
+.nav-link-hover {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #ffff02;
+  border-radius: 50px;
+  background-color: transparent; /* Keep background color static */
+  font-family: "Concert One", sans-serif; /* Apply Roboto to nav links */
+}
+
+.nav-link-hover:hover {
+  background-color: #ffff02;
+}
+
+/* Content Section */
+.content {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.628);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.content p {
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer */
+footer {
+  font-family: "Silkscreen", serif;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  background-color: transparent; /* Set background to transparent */
+}
